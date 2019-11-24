@@ -390,6 +390,8 @@
     <module>jobs/process/tutorial/t04_Context/tcontextload_and_file_0.1</module>
     <module>jobs/process/tutorial/topic_demo/sub_job_catch_exception/main_job_0.1</module>
     <module>jobs/process/tutorial/topic_demo/sub_job_catch_exception/sub_job_0.1</module>
+    <module>jobs/process/tutorial/topic_demo/sub_job_catch_exception/sub_job_1_0.1</module>
+    <module>jobs/process/tutorial/topic_demo/sub_job_catch_exception/sub_job_copy_0.1</module>
   </modules>
   <properties>
     <talend.project.name>VINCERE_ETL</talend.project.name>

@@ -235,9 +235,10 @@
             <outputDirectory>lib</outputDirectory>
             <includes>
                 <include>org.example.vincere_etl.code:routines:jar:7.2.1</include>
-                <include>org.talend.libraries:activation:jar:6.0.0</include>
                 <include>org.talend.libraries:crypto-utils:jar:6.0.0-SNAPSHOT</include>
-                <include>org.talend.libraries:mail-1.4:jar:6.0.0</include>
+                <include>org.talend.libraries:advancedPersistentLookupLib-1.2:jar:6.0.0</include>
+                <include>org.talend.libraries:jboss-serialization:jar:6.0.0</include>
+                <include>org.talend.libraries:trove:jar:6.0.0</include>
             </includes>
             <outputFileNameMapping>${artifact.artifactId}.${artifact.extension}</outputFileNameMapping>
             <useProjectArtifact>false</useProjectArtifact>
@@ -245,6 +246,8 @@
         <dependencySet>
             <outputDirectory>lib</outputDirectory>
             <includes>
+                <include>org.postgresql:postgresql:jar:42.2.5</include>
+                <include>commons-collections:commons-collections:jar:3.2.2</include>
                 <include>mysql:mysql-connector-java:jar:8.0.12</include>
                 <include>dom4j:dom4j:jar:1.6.1</include>
                 <include>log4j:log4j:jar:1.2.17</include>

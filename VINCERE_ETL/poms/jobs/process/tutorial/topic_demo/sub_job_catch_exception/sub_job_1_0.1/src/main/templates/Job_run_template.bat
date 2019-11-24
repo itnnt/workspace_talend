@@ -1,0 +1,3 @@
+%~d0
+cd %~dp0
+java -Dtalend.component.manager.m2.repository="%cd%/../lib" -Xms1024M -Xmx2048M -Dfile.encoding=UTF-8 -cp .;../lib/routines.jar;../lib/commons-collections-3.2.2.jar;../lib/log4j-1.2.17.jar;../lib/mysql-connector-java-8.0.12.jar;../lib/jboss-serialization.jar;../lib/postgresql-42.2.5.jar;../lib/dom4j-1.6.1.jar;../lib/trove.jar;../lib/advancedPersistentLookupLib-1.2.jar;../lib/crypto-utils.jar;sub_job_1_0_1.jar; vincere_etl.sub_job_1_0_1.sub_job_1  --context=Default %*

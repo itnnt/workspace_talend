@@ -1320,3 +1320,523 @@ org.osgi.framework.BundleException: Could not resolve module: org.eclipse.compar
 !ENTRY org.talend.platform.logging 1 0 2019-11-24 08:30:09.899
 !MESSAGE 2019-11-24 08:30:09,892 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
 
+
+!ENTRY org.talend.platform.logging 2 0 2019-11-24 11:01:52.766
+!MESSAGE 2019-11-24 11:01:52,758 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:02:13.162
+!MESSAGE 2019-11-24 11:02:13,155 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:02:13.164
+!MESSAGE 2019-11-24 11:02:13,164 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_ROUTINES/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:02:13.168
+!MESSAGE 2019-11-24 11:02:13,168 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:02:13.169
+!MESSAGE 2019-11-24 11:02:13,169 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:02:23.685
+!MESSAGE 2019-11-24 11:02:23,684 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - /Applications/TOSDI-7.2.1/studio/workspace/VINCERE_ETL/poms/code/routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:02:23.688
+!MESSAGE 2019-11-24 11:02:23,688 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s /Applications/TOSDI-7.2.1/studio/configuration/maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:02:34.098
+!MESSAGE 2019-11-24 11:02:34,097 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com logged on Vincere-ETL
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:02:41.408
+!MESSAGE 2019-11-24 11:02:41,407 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-11-24 11:02:43.658
+!MESSAGE 2019-11-24 11:02:43,656 ERROR org.talend.rcp.intro.ApplicationWorkbenchAdvisor  - Error while execution a login task.
+
+!STACK 0
+java.util.ConcurrentModificationException
+	at org.eclipse.emf.common.util.BasicEMap$BasicEMapIterator.next(BasicEMap.java:1341)
+	at org.talend.librariesmanager.model.ModulesNeededProvider.getModulesNeededForComponents(ModulesNeededProvider.java:333)
+	at org.talend.librariesmanager.model.ModulesNeededProvider.getModulesNeeded(ModulesNeededProvider.java:156)
+	at org.talend.designer.core.ui.projectsetting.StatsAndLogsHelper.statsAndLogsParametersDBPart(StatsAndLogsHelper.java:428)
+	at org.talend.designer.core.ui.projectsetting.StatsAndLogsHelper.createStatsAndLogsParameters(StatsAndLogsHelper.java:95)
+	at org.talend.designer.core.ui.projectsetting.ProjectSettingManager.createStatsAndLogsElement(ProjectSettingManager.java:166)
+	at org.talend.designer.core.DesignerCoreService.createStatsLogAndImplicitParamter(DesignerCoreService.java:707)
+	at org.talend.core.CoreService.createStatsLogAndImplicitParamter(CoreService.java:310)
+	at org.talend.core.repository.logintask.SyncLibrariesLoginTask.run(SyncLibrariesLoginTask.java:23)
+	at org.talend.rcp.intro.ApplicationWorkbenchAdvisor.preStartup(ApplicationWorkbenchAdvisor.java:115)
+	at org.eclipse.ui.internal.Workbench$19.runWithException(Workbench.java:1675)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:147)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4932)
+	at org.eclipse.ui.internal.StartupThreading.runWithoutExceptions(StartupThreading.java:98)
+	at org.eclipse.ui.internal.Workbench.init(Workbench.java:1671)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2804)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:623)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.talend.rcp.intro.Application.start(Application.java:277)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-11-24 11:03:10.099
+!MESSAGE No repository found at https://update.talend.com/Studio/tos/osgi.instance.area.default=@user.home/workspace/7.2.1.
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:04:34.764
+!MESSAGE 2019-11-24 11:04:34,761 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:04:34.962
+!MESSAGE 2019-11-24 11:04:34,961 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_MAIN_JOB_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:04:34.963
+!MESSAGE 2019-11-24 11:04:34,962 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_MAIN_JOB_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:04:34.967
+!MESSAGE 2019-11-24 11:04:34,966 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_MAIN_JOB_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:04:34.968
+!MESSAGE 2019-11-24 11:04:34,967 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_MAIN_JOB_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:09:15.991
+!MESSAGE 2019-11-24 11:09:15,986 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:09:16.099
+!MESSAGE 2019-11-24 11:09:16,098 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_SUB_JOB_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:09:16.100
+!MESSAGE 2019-11-24 11:09:16,099 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_SUB_JOB_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:09:16.106
+!MESSAGE 2019-11-24 11:09:16,105 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_SUB_JOB_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:09:16.107
+!MESSAGE 2019-11-24 11:09:16,106 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_SUB_JOB_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:09:52.369
+!MESSAGE 2019-11-24 11:09:52,368 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:09:52.592
+!MESSAGE 2019-11-24 11:09:52,592 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:09:53.029
+!MESSAGE 2019-11-24 11:09:53,028 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_SUB_JOB_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:09:53.030
+!MESSAGE 2019-11-24 11:09:53,029 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_SUB_JOB_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:09:53.034
+!MESSAGE 2019-11-24 11:09:53,033 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_SUB_JOB_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:09:53.035
+!MESSAGE 2019-11-24 11:09:53,034 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_SUB_JOB_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:09:53.449
+!MESSAGE 2019-11-24 11:09:53,449 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 1 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:09:54.255
+!MESSAGE 2019-11-24 11:09:54,254 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:09:55.282
+!MESSAGE 2019-11-24 11:09:55,281 INFO  org.talend.designer.core.runprocess.Processor  - Command line: java -Xms1024M -Xmx2048M -Dfile.encoding=UTF-8 -cp /Applications/TOSDI-7.2.1/studio/workspace/VINCERE_ETL/poms/jobs/process/tutorial/topic_demo/sub_job_catch_exception/sub_job_0.1/target/classpath.jar: vincere_etl.sub_job_0_1.sub_job --context=Default --stat_port=3809
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:10:42.349
+!MESSAGE 2019-11-24 11:10:42,348 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - /Applications/TOSDI-7.2.1/studio/workspace/VINCERE_ETL/poms
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:10:42.350
+!MESSAGE 2019-11-24 11:10:42,349 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -Dmaven.test.skip=true -DskipTests -s /Applications/TOSDI-7.2.1/studio/configuration/maven_user_settings.xml install -llr -T 1C -f build-aggregator.pom -P !packaging-and-assembly,!signature -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:10:55.018
+!MESSAGE 2019-11-24 11:10:55,017 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:10:55.195
+!MESSAGE 2019-11-24 11:10:55,195 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:10:55.197
+!MESSAGE 2019-11-24 11:10:55,197 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_SUB_JOB_0.1: org.example.vincere_etl.job:sub_job:0.1.0 with classifier  to /VINCERE_ETL_SUB_JOB_0.1/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:10:55.574
+!MESSAGE 2019-11-24 11:10:55,573 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_MAIN_JOB_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:10:55.575
+!MESSAGE 2019-11-24 11:10:55,574 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_MAIN_JOB_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:10:55.578
+!MESSAGE 2019-11-24 11:10:55,577 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_MAIN_JOB_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:10:55.578
+!MESSAGE 2019-11-24 11:10:55,578 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_MAIN_JOB_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:10:56.008
+!MESSAGE 2019-11-24 11:10:56,007 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:10:56.644
+!MESSAGE 2019-11-24 11:10:56,643 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:10:56.898
+!MESSAGE 2019-11-24 11:10:56,897 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:10:56.899
+!MESSAGE 2019-11-24 11:10:56,899 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_SUB_JOB_0.1: org.example.vincere_etl.job:sub_job:0.1.0 with classifier  to /VINCERE_ETL_SUB_JOB_0.1/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:10:57.166
+!MESSAGE 2019-11-24 11:10:57,166 INFO  org.talend.designer.core.runprocess.Processor  - Command line: java -Xms1024M -Xmx2048M -Dfile.encoding=UTF-8 -cp /Applications/TOSDI-7.2.1/studio/workspace/VINCERE_ETL/poms/jobs/process/tutorial/topic_demo/sub_job_catch_exception/main_job_0.1/target/classpath.jar: vincere_etl.main_job_0_1.main_job --context=Default --stat_port=3900
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:12:50.061
+!MESSAGE 2019-11-24 11:12:50,060 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:12:50.144
+!MESSAGE 2019-11-24 11:12:50,143 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_SUB_JOB_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:12:50.145
+!MESSAGE 2019-11-24 11:12:50,144 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_SUB_JOB_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:12:50.148
+!MESSAGE 2019-11-24 11:12:50,147 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_SUB_JOB_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:12:50.149
+!MESSAGE 2019-11-24 11:12:50,149 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_SUB_JOB_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:13:26.413
+!MESSAGE 2019-11-24 11:13:26,412 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:13:26.516
+!MESSAGE 2019-11-24 11:13:26,515 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_SUB_JOB_1_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:13:26.517
+!MESSAGE 2019-11-24 11:13:26,517 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_SUB_JOB_1_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:13:26.525
+!MESSAGE 2019-11-24 11:13:26,525 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_SUB_JOB_1_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:13:26.526
+!MESSAGE 2019-11-24 11:13:26,526 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_SUB_JOB_1_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:14:25.503
+!MESSAGE 2019-11-24 11:14:25,502 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:14:25.608
+!MESSAGE 2019-11-24 11:14:25,607 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_SUB_JOB_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:14:25.609
+!MESSAGE 2019-11-24 11:14:25,608 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_SUB_JOB_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:14:25.612
+!MESSAGE 2019-11-24 11:14:25,611 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_SUB_JOB_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:14:25.613
+!MESSAGE 2019-11-24 11:14:25,613 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_SUB_JOB_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:14:48.570
+!MESSAGE 2019-11-24 11:14:48,569 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - /Applications/TOSDI-7.2.1/studio/workspace/VINCERE_ETL/poms
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:14:48.570
+!MESSAGE 2019-11-24 11:14:48,570 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -Dmaven.test.skip=true -DskipTests -s /Applications/TOSDI-7.2.1/studio/configuration/maven_user_settings.xml install -llr -T 1C -f build-aggregator.pom -P !packaging-and-assembly,!signature -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:14:58.711
+!MESSAGE 2019-11-24 11:14:58,710 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:14:58.846
+!MESSAGE 2019-11-24 11:14:58,846 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:14:58.848
+!MESSAGE 2019-11-24 11:14:58,847 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_SUB_JOB_1_0.1: org.example.vincere_etl.job:sub_job_1:0.1.0 with classifier  to /VINCERE_ETL_SUB_JOB_1_0.1/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:14:58.852
+!MESSAGE 2019-11-24 11:14:58,851 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_SUB_JOB_0.1: org.example.vincere_etl.job:sub_job:0.1.0 with classifier  to /VINCERE_ETL_SUB_JOB_0.1/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:14:59.044
+!MESSAGE 2019-11-24 11:14:59,044 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_MAIN_JOB_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:14:59.045
+!MESSAGE 2019-11-24 11:14:59,045 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_MAIN_JOB_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:14:59.048
+!MESSAGE 2019-11-24 11:14:59,047 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_MAIN_JOB_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:14:59.049
+!MESSAGE 2019-11-24 11:14:59,048 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_MAIN_JOB_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:14:59.515
+!MESSAGE 2019-11-24 11:14:59,515 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:15:00.171
+!MESSAGE 2019-11-24 11:15:00,170 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:15:00.718
+!MESSAGE 2019-11-24 11:15:00,717 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:15:00.955
+!MESSAGE 2019-11-24 11:15:00,954 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:15:00.957
+!MESSAGE 2019-11-24 11:15:00,956 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_SUB_JOB_1_0.1: org.example.vincere_etl.job:sub_job_1:0.1.0 with classifier  to /VINCERE_ETL_SUB_JOB_1_0.1/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:15:00.960
+!MESSAGE 2019-11-24 11:15:00,960 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_SUB_JOB_0.1: org.example.vincere_etl.job:sub_job:0.1.0 with classifier  to /VINCERE_ETL_SUB_JOB_0.1/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:15:01.269
+!MESSAGE 2019-11-24 11:15:01,269 INFO  org.talend.designer.core.runprocess.Processor  - Command line: java -Xms1024M -Xmx2048M -Dfile.encoding=UTF-8 -cp /Applications/TOSDI-7.2.1/studio/workspace/VINCERE_ETL/poms/jobs/process/tutorial/topic_demo/sub_job_catch_exception/main_job_0.1/target/classpath.jar: vincere_etl.main_job_0_1.main_job --context=Default --stat_port=3619
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:28:15.125
+!MESSAGE 2019-11-24 11:28:15,121 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:28:15.229
+!MESSAGE 2019-11-24 11:28:15,228 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_GARRISON_GEN_DATA_ATTACHMENT_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:28:15.231
+!MESSAGE 2019-11-24 11:28:15,230 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_GARRISON_GEN_DATA_ATTACHMENT_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:28:15.234
+!MESSAGE 2019-11-24 11:28:15,233 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_GARRISON_GEN_DATA_ATTACHMENT_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:28:15.235
+!MESSAGE 2019-11-24 11:28:15,235 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_GARRISON_GEN_DATA_ATTACHMENT_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:39:01.700
+!MESSAGE 2019-11-24 11:39:01,699 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:39:01.851
+!MESSAGE 2019-11-24 11:39:01,850 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /.Java/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:39:01.851
+!MESSAGE 2019-11-24 11:39:01,851 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /.Java/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:39:01.854
+!MESSAGE 2019-11-24 11:39:01,853 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /.Java/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:39:01.854
+!MESSAGE 2019-11-24 11:39:01,854 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /.Java/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:39:04.883
+!MESSAGE 2019-11-24 11:39:04,882 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:39:05.220
+!MESSAGE 2019-11-24 11:39:05,220 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:39:05.248
+!MESSAGE 2019-11-24 11:39:05,247 INFO  org.talend.designer.core.runprocess.Processor  - Command line: java -Xms1024M -Xmx2048M -Dfile.encoding=UTF-8 -cp /Applications/TOSDI-7.2.1/studio/workspace/.Java/target/classpath.jar: vincere_etl.shadowfileinputtodelimitedoutput_0_1.ShadowFileInputToDelimitedOutput --context=Shadow
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:39:23.379
+!MESSAGE 2019-11-24 11:39:23,379 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:39:23.505
+!MESSAGE 2019-11-24 11:39:23,504 INFO  org.talend.designer.core.runprocess.Processor  - Command line: java -Xms1024M -Xmx2048M -Dfile.encoding=UTF-8 -cp /Applications/TOSDI-7.2.1/studio/workspace/.Java/target/classpath.jar: vincere_etl.shadowfileinputtodelimitedoutput_0_1.ShadowFileInputToDelimitedOutput --context=Shadow
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:43:38.174
+!MESSAGE 2019-11-24 11:43:38,172 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:43:38.365
+!MESSAGE 2019-11-24 11:43:38,365 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:43:38.584
+!MESSAGE 2019-11-24 11:43:38,583 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_MAIN_JOB_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:43:38.585
+!MESSAGE 2019-11-24 11:43:38,584 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_MAIN_JOB_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:43:38.588
+!MESSAGE 2019-11-24 11:43:38,587 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_MAIN_JOB_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:43:38.589
+!MESSAGE 2019-11-24 11:43:38,588 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_MAIN_JOB_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:43:38.822
+!MESSAGE 2019-11-24 11:43:38,821 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:43:39.104
+!MESSAGE 2019-11-24 11:43:39,103 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:43:39.374
+!MESSAGE 2019-11-24 11:43:39,374 INFO  org.talend.designer.core.runprocess.Processor  - Command line: java -Xms1024M -Xmx2048M -Dfile.encoding=UTF-8 -cp /Applications/TOSDI-7.2.1/studio/workspace/VINCERE_ETL/poms/jobs/process/tutorial/topic_demo/sub_job_catch_exception/main_job_0.1/target/classpath.jar: vincere_etl.main_job_0_1.main_job --context=Default --stat_port=3692
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:53:46.220
+!MESSAGE 2019-11-24 11:53:46,219 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:53:46.271
+!MESSAGE 2019-11-24 11:53:46,270 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_DEMO1_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:53:46.272
+!MESSAGE 2019-11-24 11:53:46,271 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_DEMO1_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:53:46.274
+!MESSAGE 2019-11-24 11:53:46,274 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_DEMO1_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:53:46.275
+!MESSAGE 2019-11-24 11:53:46,275 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_DEMO1_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:53:53.531
+!MESSAGE 2019-11-24 11:53:53,530 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:53:53.585
+!MESSAGE 2019-11-24 11:53:53,585 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_PRIORTEST_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:53:53.586
+!MESSAGE 2019-11-24 11:53:53,586 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_PRIORTEST_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:53:53.590
+!MESSAGE 2019-11-24 11:53:53,590 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_PRIORTEST_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:53:53.591
+!MESSAGE 2019-11-24 11:53:53,591 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_PRIORTEST_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:53:58.760
+!MESSAGE 2019-11-24 11:53:58,760 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:53:58.890
+!MESSAGE 2019-11-24 11:53:58,889 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_README_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:53:58.891
+!MESSAGE 2019-11-24 11:53:58,891 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_README_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:53:58.893
+!MESSAGE 2019-11-24 11:53:58,893 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_README_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:53:58.894
+!MESSAGE 2019-11-24 11:53:58,893 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_README_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:53:59.748
+!MESSAGE 2019-11-24 11:53:59,747 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:54:01.965
+!MESSAGE 2019-11-24 11:54:01,964 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/VINCERE_ETL_ROUTINES: org.example.vincere_etl.code:routines:7.2.1 with classifier  to /VINCERE_ETL_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:54:02.001
+!MESSAGE 2019-11-24 11:54:02,001 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_TFILTERROW__FILTERING_AND_SPLITTING_INPUT_ROWS_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:54:02.002
+!MESSAGE 2019-11-24 11:54:02,001 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_TFILTERROW__FILTERING_AND_SPLITTING_INPUT_ROWS_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:54:02.003
+!MESSAGE 2019-11-24 11:54:02,003 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /VINCERE_ETL_TFILTERROW__FILTERING_AND_SPLITTING_INPUT_ROWS_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-11-24 11:54:02.004
+!MESSAGE 2019-11-24 11:54:02,003 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /VINCERE_ETL_TFILTERROW__FILTERING_AND_SPLITTING_INPUT_ROWS_0.1/src/test/resources
+

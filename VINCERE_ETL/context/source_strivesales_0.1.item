@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_UjBmMMrREemgd8eMQ_vqgw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_UjBmMcrREemgd8eMQ_vqgw" comment="" name="strivesales_Server" prompt="strivesales_Server?" promptNeeded="false" type="id_String" value="dmpfra.vinceredev.com"/>
+  <contextParameter xmi:id="_UjBmMsrREemgd8eMQ_vqgw" comment="" name="strivesales_AdditionalParams" prompt="strivesales_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_UjBmM8rREemgd8eMQ_vqgw" comment="" name="strivesales_Schema" prompt="strivesales_Schema?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_UjBmNMrREemgd8eMQ_vqgw" comment="" name="strivesales_Database" prompt="strivesales_Database?" promptNeeded="false" type="id_String" value="strivesales"/>
+  <contextParameter xmi:id="_UjBmNcrREemgd8eMQ_vqgw" comment="" name="strivesales_Login" prompt="strivesales_Login?" promptNeeded="false" type="id_String" value="sa"/>
+  <contextParameter xmi:id="_UjBmNsrREemgd8eMQ_vqgw" comment="" name="strivesales_Port" prompt="strivesales_Port?" promptNeeded="false" type="id_String" value="1433"/>
+  <contextParameter xmi:id="_UjBmN8rREemgd8eMQ_vqgw" comment="" name="strivesales_Password" prompt="strivesales_Password?" promptNeeded="false" type="id_Password" value="HgiF9B4PmKPjHLwVNw6tpg=="/>
+</talendfile:ContextType>

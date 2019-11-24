@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_V6UTwM4JEeKm8N-2Qw-VQg" id="_I21q0M4TEeKm8N-2Qw-VQg" label="jo_cook_ch08_0080_useHeaderAndTrailerInfo" purpose="Cookbook:  demonstrate how to use header and trailer" description="Cookbook:  demonstrate how to use header and trailer" version="0.1" statusCode="" item="_V6UTws4JEeKm8N-2Qw-VQg" maxInformationLevel="ERROR" displayName="jo_cook_ch08_0080_useHeaderAndTrailerInfo">
+    <author href="../../../talend.project#_jNcsUMpaEem_WIQDJrffyA"/>
+    <informations xmi:id="_ARZUMNEiEeKhFYrN-MQQXQ" level="ERROR" text="org.talend.designer cannot be resolved to a type"/>
+    <informations xmi:id="_ARZUMdEiEeKhFYrN-MQQXQ" level="ERROR" text="org.talend.designer.components.hashfile.common.MapHashFile cannot be resolved to a type"/>
+    <informations xmi:id="_ARZUMtEiEeKhFYrN-MQQXQ" level="ERROR" text="org.talend.designer cannot be resolved to a type"/>
+    <informations xmi:id="_ARZUM9EiEeKhFYrN-MQQXQ" level="ERROR" text="org.talend.designer cannot be resolved to a type"/>
+    <informations xmi:id="_ARZUNNEiEeKhFYrN-MQQXQ" level="ERROR" text="org.talend.designer cannot be resolved to a type"/>
+    <informations xmi:id="_ARZUNdEiEeKhFYrN-MQQXQ" level="ERROR" text="org.talend.designer.components.hashfile.common.MapHashFile cannot be resolved to a type"/>
+    <informations xmi:id="_ARZUNtEiEeKhFYrN-MQQXQ" level="ERROR" text="org.talend.designer cannot be resolved to a type"/>
+    <informations xmi:id="_ARZUN9EiEeKhFYrN-MQQXQ" level="ERROR" text="org.talend.designer cannot be resolved to a type"/>
+    <informations xmi:id="_ARZUONEiEeKhFYrN-MQQXQ" level="ERROR" text="org.talend.designer cannot be resolved to a type"/>
+    <informations xmi:id="_ARZUOdEiEeKhFYrN-MQQXQ" level="ERROR" text="org.talend.designer.components.hashfile.common.MapHashFile cannot be resolved to a type"/>
+    <informations xmi:id="_ARZUOtEiEeKhFYrN-MQQXQ" level="ERROR" text="org.talend.designer cannot be resolved to a type"/>
+    <informations xmi:id="_ARZUO9EiEeKhFYrN-MQQXQ" level="ERROR" text="org.talend.designer cannot be resolved to a type"/>
+    <additionalProperties xmi:id="_Xi49IMpvEem6cZ_N8NL8VQ" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_Xi49IcpvEem6cZ_N8NL8VQ" key="created_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_Xi49IspvEem6cZ_N8NL8VQ" key="created_date" value="2019-08-29T23:12:08.178+0700"/>
+    <additionalProperties xmi:id="_Xi49I8pvEem6cZ_N8NL8VQ" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_Xi49JMpvEem6cZ_N8NL8VQ" key="modified_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_Xi49JcpvEem6cZ_N8NL8VQ" key="modified_date" value="2019-11-22T21:11:29.414+0700"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_Xhz_EMpvEem6cZ_N8NL8VQ" path="chapter08"/>
+  <TalendProperties:ProcessItem xmi:id="_V6UTws4JEeKm8N-2Qw-VQg" property="_V6UTwM4JEeKm8N-2Qw-VQg" state="_Xhz_EMpvEem6cZ_N8NL8VQ">
+    <process href="jo_cook_ch08_0080_useHeaderAndTrailerInfo_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

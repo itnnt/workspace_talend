@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_UAEZYJyMEeK_Lq_Tgq3rQw" id="_n5wzsJ1oEeK_Lq_Tgq3rQw" label="jo_cook_ch03_0060_validationCodeRoutine" purpose="Cookbook:  Demonstrate validation rules using code routines" description="Cookbook:  Demonstrate validation rules using code routines" version="0.1" statusCode="" item="_UAEZYpyMEeK_Lq_Tgq3rQw" displayName="jo_cook_ch03_0060_validationCodeRoutine">
+    <author href="../../../talend.project#_jNcsUMpaEem_WIQDJrffyA"/>
+    <additionalProperties xmi:id="_VPfXIMpvEem6cZ_N8NL8VQ" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_VPfXIcpvEem6cZ_N8NL8VQ" key="created_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_VPfXIspvEem6cZ_N8NL8VQ" key="created_date" value="2019-08-29T23:11:52.722+0700"/>
+    <additionalProperties xmi:id="_VPfXI8pvEem6cZ_N8NL8VQ" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_VPfXJMpvEem6cZ_N8NL8VQ" key="modified_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_VPf-MMpvEem6cZ_N8NL8VQ" key="modified_date" value="2019-11-22T21:11:21.298+0700"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_VOJ6YMpvEem6cZ_N8NL8VQ" path="chapter03"/>
+  <TalendProperties:ProcessItem xmi:id="_UAEZYpyMEeK_Lq_Tgq3rQw" property="_UAEZYJyMEeK_Lq_Tgq3rQw" state="_VOJ6YMpvEem6cZ_N8NL8VQ">
+    <process href="jo_cook_ch03_0060_validationCodeRoutine_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

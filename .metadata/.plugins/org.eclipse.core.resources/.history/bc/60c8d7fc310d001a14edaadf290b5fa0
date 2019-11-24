@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_hZoSAKpiEeKpGsBzYP6LEw" id="_BjTkMKpjEeKpGsBzYP6LEw" label="jo_cook_ch10_0120_randomTestDataLookups" purpose="Cookbook: demonstrate random values from lookup" description="Cookbook: demonstrate random values from lookup" version="0.1" statusCode="" item="_hZoSAqpiEeKpGsBzYP6LEw" maxInformationLevel="ERROR" displayName="jo_cook_ch10_0120_randomTestDataLookups">
+    <author href="../../../talend.project#_jNcsUMpaEem_WIQDJrffyA"/>
+    <informations xmi:id="_0TTfYKqyEeKpGsBzYP6LEw" level="ERROR" text="productCode cannot be resolved or is not a field"/>
+    <additionalProperties xmi:id="_Ylhe0MpvEem6cZ_N8NL8VQ" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_Ylhe0cpvEem6cZ_N8NL8VQ" key="created_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_Ylhe0spvEem6cZ_N8NL8VQ" key="created_date" value="2019-08-29T23:12:15.165+0700"/>
+    <additionalProperties xmi:id="_Ylhe08pvEem6cZ_N8NL8VQ" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_Ylhe1MpvEem6cZ_N8NL8VQ" key="modified_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_Ylhe1cpvEem6cZ_N8NL8VQ" key="modified_date" value="2019-11-22T21:11:32.987+0700"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_Yke9AMpvEem6cZ_N8NL8VQ" path="chapter10"/>
+  <TalendProperties:ProcessItem xmi:id="_hZoSAqpiEeKpGsBzYP6LEw" property="_hZoSAKpiEeKpGsBzYP6LEw" state="_Yke9AMpvEem6cZ_N8NL8VQ">
+    <process href="jo_cook_ch10_0120_randomTestDataLookups_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

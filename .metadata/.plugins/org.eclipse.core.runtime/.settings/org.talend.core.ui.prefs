@@ -1,0 +1,8 @@
+COLLECTOR_SYNC_NB=2
+SQL_Syntax=SQL_92
+Standard_SQL=24
+active_data_collector=false
+data_collector=true
+data_collector_last_time=2019-08-30 09\:09\:04
+eclipse.preferences.version=1
+first.time.launch=false

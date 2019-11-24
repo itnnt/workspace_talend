@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_UqaUIMpvEem6cZ_N8NL8VQ" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_UqaUIcpvEem6cZ_N8NL8VQ" comment="" name="cookbookDB_AdditionalParams" prompt="cookbookDB_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+  <contextParameter xmi:id="_UqaUIspvEem6cZ_N8NL8VQ" comment="" name="cookbookDB_Server" prompt="cookbookDB_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_UqaUI8pvEem6cZ_N8NL8VQ" comment="" name="cookbookDB_Database" prompt="cookbookDB_Database?" promptNeeded="false" type="id_String" value="cookbookDB"/>
+  <contextParameter xmi:id="_UqaUJMpvEem6cZ_N8NL8VQ" comment="" name="cookbookDB_Password" prompt="cookbookDB_Password?" promptNeeded="false" type="id_Password" value="YdTnhbqBAdo="/>
+  <contextParameter xmi:id="_UqaUJcpvEem6cZ_N8NL8VQ" comment="" name="cookbookDB_Port" prompt="cookbookDB_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  <contextParameter xmi:id="_UqaUJspvEem6cZ_N8NL8VQ" comment="" name="cookbookDB_Login" prompt="cookbookDB_Login?" promptNeeded="false" type="id_String" value="talend"/>
+</talendfile:ContextType>

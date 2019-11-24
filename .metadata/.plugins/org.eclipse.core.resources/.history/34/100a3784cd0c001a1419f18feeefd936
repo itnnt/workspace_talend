@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_QKl1EMrLEemgd8eMQ_vqgw" id="_8gVQ8MrKEemgd8eMQ_vqgw" label="strivesales" purpose="data connection of strivesales" description="data connection of strivesales" version="0.1" statusCode="" item="_QKl1EsrLEemgd8eMQ_vqgw" displayName="strivesales">
+    <author href="../../../talend.project#_jNcsUMpaEem_WIQDJrffyA"/>
+    <additionalProperties xmi:id="_QKnDMMrLEemgd8eMQ_vqgw" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_QKnDMcrLEemgd8eMQ_vqgw" key="created_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_QKnDMsrLEemgd8eMQ_vqgw" key="created_date" value="2019-08-30T10:09:52.355+0700"/>
+    <additionalProperties xmi:id="_QKnDM8rLEemgd8eMQ_vqgw" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_QKnDNMrLEemgd8eMQ_vqgw" key="modified_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_QKnqQMrLEemgd8eMQ_vqgw" key="modified_date" value="2019-11-22T09:12:12.917+0700"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_QKl1EcrLEemgd8eMQ_vqgw" path="clients" locked="true" lockDate="2019-11-22T09:12:12.917+0700">
+    <locker href="../../../talend.project#_jNcsUMpaEem_WIQDJrffyA"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:DatabaseConnectionItem xmi:id="_QKl1EsrLEemgd8eMQ_vqgw" property="_QKl1EMrLEemgd8eMQ_vqgw" state="_QKl1EcrLEemgd8eMQ_vqgw" typeName="Microsoft SQL Server">
+    <connection href="strivesales_0.1.item#_QKlOAMrLEemgd8eMQ_vqgw"/>
+  </TalendProperties:DatabaseConnectionItem>
+</xmi:XMI>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.talend.designer.runprocess.jobLaunchConfiguration">
+    <stringAttribute key="CURRENT_PROJECT_NAME" value="Vincere-ETL"/>
+    <stringAttribute key="JOB_PROJECT_TECH_LABEL" value="VINCERE_ETL"/>
+    <stringAttribute key="TALEND_JOB_ID" value="_-f0kAAzXEeqegpk_F44V0Q"/>
+    <stringAttribute key="TALEND_JOB_NAME" value="garrison_gen_data_attachment"/>
+    <stringAttribute key="TALEND_JOB_VERSION" value="0.1"/>
+</launchConfiguration>

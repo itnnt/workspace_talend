@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_4SXCYMrPEemgd8eMQ_vqgw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_4SXpcMrPEemgd8eMQ_vqgw" comment="" name="dmpfra_host" prompt="dmpfra_host?" promptNeeded="false" type="id_String" value="dmpfra.vinceredev.com"/>
+  <contextParameter xmi:id="_4SXpccrPEemgd8eMQ_vqgw" comment="" name="dmpfra_user" prompt="dmpfra_user?" promptNeeded="false" type="id_String" value="sa"/>
+  <contextParameter xmi:id="_4SXpcsrPEemgd8eMQ_vqgw" comment="" name="dmpfra_password" prompt="dmpfra_password?" promptNeeded="false" type="id_String" value="123$%^qwe"/>
+  <contextParameter xmi:id="_4SXpc8rPEemgd8eMQ_vqgw" comment="" name="dmpfra_port" prompt="dmpfra_port?" promptNeeded="false" type="id_String" value="1433"/>
+</talendfile:ContextType>

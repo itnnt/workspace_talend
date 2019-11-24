@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="vincere_etl.garrison_gen_data_contact_0_1.garrison_gen_data_contact"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="--context=Default --stat_port=3517 "/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="VINCERE_ETL_GARRISON_GEN_DATA_CONTACT_0.1"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.STOP_IN_MAIN" value="true"/>
+</launchConfiguration>

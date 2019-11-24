@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_VdAxwENLEd-UK4CtF6UouA" id="_BiFlYIirEd23i9syGA5qIA" label="tMysqlSP" version="0.1" statusCode="" item="_VdAxwkNLEd-UK4CtF6UouA" displayName="tMysqlSP">
+    <author href="../../../../../talend.project#_jNcsUMpaEem_WIQDJrffyA"/>
+    <additionalProperties xmi:id="_27mWsMrCEemgd8eMQ_vqgw" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_27mWscrCEemgd8eMQ_vqgw" key="created_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_27mWssrCEemgd8eMQ_vqgw" key="created_date" value="2019-08-30T09:09:47.035+0700"/>
+    <additionalProperties xmi:id="_27mWs8rCEemgd8eMQ_vqgw" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_27mWtMrCEemgd8eMQ_vqgw" key="modified_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_27mWtcrCEemgd8eMQ_vqgw" key="modified_date" value="2019-11-22T21:11:37.464+0700"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_25JfoMrCEemgd8eMQ_vqgw" path="t01_Compo/Databases/SP"/>
+  <TalendProperties:ProcessItem xmi:id="_VdAxwkNLEd-UK4CtF6UouA" property="_VdAxwENLEd-UK4CtF6UouA" state="_25JfoMrCEemgd8eMQ_vqgw">
+    <process href="tMysqlSP_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

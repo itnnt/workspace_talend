@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_MX9lIMyFEemLL97XPuE6mw" name="oakstone" id="_IOdZIMyFEemLL97XPuE6mw" label="oakstone" dataPackage="_MZhrYMyFEemLL97XPuE6mw" DatabaseType="SQLite" DriverClass="org.sqlite.JDBC" URL="jdbc:sqlite://users/tungnguyen/desktop/oakstone.db" Port="" Username="" Password="" ServerName="" DatasourceName="" FileFieldName="/Users/tungnguyen/Desktop/oakstone.db" SID="" SqlSynthax="SQL_92" StringQuote="" NullChar="" DbmsId="sqlite_id" ProductId="SQLITE" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_MX9lIcyFEemLL97XPuE6mw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_MYYb4MyFEemLL97XPuE6mw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_MYhl0MyFEemLL97XPuE6mw" tag="Status" value=""/>
+    <taggedValue xmi:id="_MYhl0cyFEemLL97XPuE6mw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_MYhl0syFEemLL97XPuE6mw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_MYhl08yFEemLL97XPuE6mw" tag="Description" value=""/>
+    <taggedValue xmi:id="_MYhl1MyFEemLL97XPuE6mw" tag="Author" value=""/>
+    <taggedValue xmi:id="_MYhl1cyFEemLL97XPuE6mw" tag="otherParameter"/>
+    <taggedValue xmi:id="_MY7OcMyFEemLL97XPuE6mw" tag="DB ProductName" value="SQLite"/>
+    <taggedValue xmi:id="_MY7OccyFEemLL97XPuE6mw" tag="DB ProductVersion" value="3.6.14.2"/>
+    <taggedValue xmi:id="_MY7OcsyFEemLL97XPuE6mw" tag="DB IdentifierQuoteString" value=" "/>
+    <parameters xmi:id="_MX9lIsyFEemLL97XPuE6mw" key="CONN_PARA_KEY_USERNAME" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_MZhrYMyFEemLL97XPuE6mw" name=" " dataManager="_MX9lIMyFEemLL97XPuE6mw"/>
+</xmi:XMI>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_m-W_cAzEEeq6_K4SV0ut1Q" name="garrission_review_db" id="_1tEFAAzDEeq6_K4SV0ut1Q" label="garrission_review_db" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://dmpus.vinceredev.com:1433;DatabaseName=mh2484;" dbVersionString="MSSQL_PROP" Port="1433" Username="sa" Password="HgiF9B4PmKPjHLwVNw6tpg==" ServerName="dmpus.vinceredev.com" DatasourceName="" FileFieldName="" SID="mh2484" SqlSynthax="SQL_92" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+  <taggedValue xmi:id="_m-W_cQzEEeq6_K4SV0ut1Q" tag="Is Conn Need Reload" value="true"/>
+  <parameters xmi:id="_m-W_cgzEEeq6_K4SV0ut1Q" key="CONN_PARA_KEY_USERNAME" value="sa"/>
+</TalendMetadata:DatabaseConnection>

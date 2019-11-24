@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_m-dGEAzEEeq6_K4SV0ut1Q" id="_1tEFAAzDEeq6_K4SV0ut1Q" label="garrission_review_db" version="0.1" statusCode="" item="_m-dGEgzEEeq6_K4SV0ut1Q" displayName="garrission_review_db">
+    <author href="../../../talend.project#_jNcsUMpaEem_WIQDJrffyA"/>
+    <additionalProperties xmi:id="_m-h-kAzEEeq6_K4SV0ut1Q" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_m-h-kQzEEeq6_K4SV0ut1Q" key="created_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_m-h-kgzEEeq6_K4SV0ut1Q" key="created_date" value="2019-11-22T09:08:35.704+0700"/>
+    <additionalProperties xmi:id="_m-h-kwzEEeq6_K4SV0ut1Q" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_m-h-lAzEEeq6_K4SV0ut1Q" key="modified_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_m-h-lQzEEeq6_K4SV0ut1Q" key="modified_date" value="2019-11-22T09:08:35.704+0700"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_m-dGEQzEEeq6_K4SV0ut1Q" path="clients"/>
+  <TalendProperties:DatabaseConnectionItem xmi:id="_m-dGEgzEEeq6_K4SV0ut1Q" property="_m-dGEAzEEeq6_K4SV0ut1Q" state="_m-dGEQzEEeq6_K4SV0ut1Q" typeName="Microsoft SQL Server">
+    <connection href="garrission_review_db_0.1.item#_m-W_cAzEEeq6_K4SV0ut1Q"/>
+  </TalendProperties:DatabaseConnectionItem>
+</xmi:XMI>

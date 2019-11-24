@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_hFVbEA3LEeqZ5oHNeCUnZA" id="_248t0A3KEeqZ5oHNeCUnZA" DatabaseType="JDBC" URL="jdbc:ingres://:II7/;" Port="II7" Username="" Password="" ServerName="" DatasourceName="" FileFieldName="" SID="" SqlSynthax="SQL_92" DbmsId="mysql_id" ProductId="JDBC" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+  <taggedValue xmi:id="_hFVbEQ3LEeqZ5oHNeCUnZA" tag="Is Conn Need Reload" value="true"/>
+  <parameters xmi:id="_hFVbEg3LEeqZ5oHNeCUnZA" key="CONN_PARA_KEY_USERNAME" value=""/>
+</TalendMetadata:DatabaseConnection>

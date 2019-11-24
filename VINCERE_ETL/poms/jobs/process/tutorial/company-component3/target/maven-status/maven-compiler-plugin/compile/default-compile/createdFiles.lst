@@ -1,0 +1,9 @@
+com/company/talend/components/datastore/CustomDatastore.class
+com/company/talend/components/output/CompanyOutputOutput.class
+com/company/talend/components/source/CompanyInputSource.class
+com/company/talend/components/source/CompanyInputMapperConfiguration.class
+com/company/talend/components/dataset/CustomDataset.class
+com/company/talend/components/source/CompanyInputMapper.class
+com/company/talend/components/package-info.class
+com/company/talend/components/service/CompanyComponentService.class
+com/company/talend/components/output/CompanyOutputOutputConfiguration.class

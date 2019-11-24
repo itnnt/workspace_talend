@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_hFVbEA3LEeqZ5oHNeCUnZA" name="local_h2" id="_248t0A3KEeqZ5oHNeCUnZA" label="local_h2" DatabaseType="JDBC" DriverJarPath="h2-1.4.200.jar" DriverClass="org.h2.Driver" URL="jdbc:h2:/Users/tungnguyen/Desktop/concilio_services_master/target/db/customer_production" Port="II7" Username="sa" Password="1+mcsKl1zYI=" ServerName="" DatasourceName="" FileFieldName="" SID="" SqlSynthax="SQL_92" DbmsId="mysql_id" ProductId="JDBC" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+  <taggedValue xmi:id="_hFVbEQ3LEeqZ5oHNeCUnZA" tag="Is Conn Need Reload" value="true"/>
+  <taggedValue xmi:id="_hGWuwA3LEeqZ5oHNeCUnZA" tag="Status" value=""/>
+  <taggedValue xmi:id="_hGWuwQ3LEeqZ5oHNeCUnZA" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_hGWuwg3LEeqZ5oHNeCUnZA" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_hGWuww3LEeqZ5oHNeCUnZA" tag="Description" value=""/>
+  <taggedValue xmi:id="_hGWuxA3LEeqZ5oHNeCUnZA" tag="Author" value=""/>
+  <taggedValue xmi:id="_hGWuxQ3LEeqZ5oHNeCUnZA" tag="otherParameter"/>
+  <parameters xmi:id="_hFVbEg3LEeqZ5oHNeCUnZA" key="CONN_PARA_KEY_USERNAME" value=""/>
+</TalendMetadata:DatabaseConnection>

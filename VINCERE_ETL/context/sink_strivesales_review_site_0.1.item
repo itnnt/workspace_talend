@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_tfbVMMrYEemLXb09JBGbkw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_tfbVMcrYEemLXb09JBGbkw" comment="" name="strivesales_review_vincere_io_Port" prompt="strivesales_review_vincere_io_Port?" promptNeeded="false" type="id_String" value="25432"/>
+  <contextParameter xmi:id="_tfbVMsrYEemLXb09JBGbkw" comment="" name="strivesales_review_vincere_io_Login" prompt="strivesales_review_vincere_io_Login?" promptNeeded="false" type="id_String" value="dbapplication_user"/>
+  <contextParameter xmi:id="_tfbVM8rYEemLXb09JBGbkw" comment="" name="strivesales_review_vincere_io_Server" prompt="strivesales_review_vincere_io_Server?" promptNeeded="false" type="id_String" value="35.158.17.10"/>
+  <contextParameter xmi:id="_tfbVNMrYEemLXb09JBGbkw" comment="" name="strivesales_review_vincere_io_Schema" prompt="strivesales_review_vincere_io_Schema?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_tfbVNcrYEemLXb09JBGbkw" comment="" name="strivesales_review_vincere_io_Database" prompt="strivesales_review_vincere_io_Database?" promptNeeded="false" type="id_String" value="strivesales-review.vincere.io"/>
+  <contextParameter xmi:id="_tfbVNsrYEemLXb09JBGbkw" comment="" name="strivesales_review_vincere_io_AdditionalParams" prompt="strivesales_review_vincere_io_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_tfbVN8rYEemLXb09JBGbkw" comment="" name="strivesales_review_vincere_io_Password" prompt="strivesales_review_vincere_io_Password?" promptNeeded="false" type="id_Password" value="U0JvYdZA6dz07ywjT+Lzzw=="/>
+</talendfile:ContextType>

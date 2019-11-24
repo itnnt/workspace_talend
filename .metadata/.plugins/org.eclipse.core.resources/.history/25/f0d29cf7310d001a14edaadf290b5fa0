@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_8fHlMLpTEeKNs48OANRyew" id="_NDXr8L-JEeKdl87f2Bj1rA" label="jo_cook_ch04_0080_hierarchicaltMapJoinCompleted" purpose="Cookbook: demonstrate hierarchical join using tMap" description="Cookbook: demonstrate hierarchical join using tMap" version="0.1" statusCode="" item="_8fHlMrpTEeKNs48OANRyew" displayName="jo_cook_ch04_0080_hierarchicaltMapJoinCompleted">
+    <author href="../../../talend.project#_jNcsUMpaEem_WIQDJrffyA"/>
+    <additionalProperties xmi:id="_WW98kMpvEem6cZ_N8NL8VQ" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_WW98kcpvEem6cZ_N8NL8VQ" key="created_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_WW98kspvEem6cZ_N8NL8VQ" key="created_date" value="2019-08-29T23:12:00.217+0700"/>
+    <additionalProperties xmi:id="_WW98k8pvEem6cZ_N8NL8VQ" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_WW98lMpvEem6cZ_N8NL8VQ" key="modified_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_WW98lcpvEem6cZ_N8NL8VQ" key="modified_date" value="2019-11-22T21:11:23.720+0700"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_WVWL8MpvEem6cZ_N8NL8VQ" path="chapter04Completed"/>
+  <TalendProperties:ProcessItem xmi:id="_8fHlMrpTEeKNs48OANRyew" property="_8fHlMLpTEeKNs48OANRyew" state="_WVWL8MpvEem6cZ_N8NL8VQ">
+    <process href="jo_cook_ch04_0080_hierarchicaltMapJoinCompleted_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

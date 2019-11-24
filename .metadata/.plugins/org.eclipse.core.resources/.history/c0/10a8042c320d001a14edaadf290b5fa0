@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_gPacAZnXEeK3-suGuCne6w" id="_gPacAJnXEeK3-suGuCne6w" label="jo_cook_ch02_0040_dragSchema" purpose="Cookbook:  job to demonstrate dragging and dropping schemas" description="Cookbook:   job to demonstrate dragging and dropping schemas" version="0.1" statusCode="" item="_gPacA5nXEeK3-suGuCne6w" displayName="jo_cook_ch02_0040_dragSchema">
+    <author href="../../../talend.project#_jNcsUMpaEem_WIQDJrffyA"/>
+    <additionalProperties xmi:id="_UzVmoMpvEem6cZ_N8NL8VQ" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_UzVmocpvEem6cZ_N8NL8VQ" key="created_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_UzVmospvEem6cZ_N8NL8VQ" key="created_date" value="2019-08-29T23:11:49.770+0700"/>
+    <additionalProperties xmi:id="_UzVmo8pvEem6cZ_N8NL8VQ" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_UzVmpMpvEem6cZ_N8NL8VQ" key="modified_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_UzVmpcpvEem6cZ_N8NL8VQ" key="modified_date" value="2019-11-22T21:11:20.685+0700"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_Ux2Y4MpvEem6cZ_N8NL8VQ" path="tutorial/chapter02"/>
+  <TalendProperties:ProcessItem xmi:id="_gPacA5nXEeK3-suGuCne6w" property="_gPacAZnXEeK3-suGuCne6w" state="_Ux2Y4MpvEem6cZ_N8NL8VQ">
+    <process href="jo_cook_ch02_0040_dragSchema_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

@@ -1,0 +1,54 @@
+//component_start:CompanyInput
+
+== CompanyInput
+
+TODO fill the documentation for this mapper
+
+//configuration_start
+
+=== Configuration
+
+[cols="d,d,m,a,e,d",options="header"]
+|===
+|Display Name|Description|Default Value|Enabled If|Configuration Path|Configuration Type
+|configuration|TODO fill the documentation for this configuration|-|Always enabled|configuration|-
+|dataset|TODO fill the documentation for this parameter|-|Always enabled|configuration.dataset|dataset
+|data|TODO fill the documentation for this parameter|-|Always enabled|configuration.dataset.data|dataset
+|datastore|TODO fill the documentation for this parameter|-|Always enabled|configuration.dataset.datastore|datastore
+|password|TODO fill the documentation for this parameter|-|Always enabled|configuration.dataset.datastore.password|datastore
+|url|TODO fill the documentation for this parameter|-|Always enabled|configuration.dataset.datastore.url|datastore
+|username|TODO fill the documentation for this parameter|-|Always enabled|configuration.dataset.datastore.username|datastore
+|tablename|TODO fill the documentation for this parameter|-|Always enabled|configuration.dataset.tablename|dataset
+|===
+
+//configuration_end
+
+//component_end:CompanyInput
+
+//component_start:CompanyOutput
+
+== CompanyOutput
+
+TODO fill the documentation for this processor
+
+//configuration_start
+
+=== Configuration
+
+[cols="d,d,m,a,e,d",options="header"]
+|===
+|Display Name|Description|Default Value|Enabled If|Configuration Path|Configuration Type
+|configuration|TODO fill the documentation for this configuration|-|Always enabled|configuration|-
+|dataset|TODO fill the documentation for this parameter|-|Always enabled|configuration.dataset|dataset
+|data|TODO fill the documentation for this parameter|-|Always enabled|configuration.dataset.data|dataset
+|datastore|TODO fill the documentation for this parameter|-|Always enabled|configuration.dataset.datastore|datastore
+|password|TODO fill the documentation for this parameter|-|Always enabled|configuration.dataset.datastore.password|datastore
+|url|TODO fill the documentation for this parameter|-|Always enabled|configuration.dataset.datastore.url|datastore
+|username|TODO fill the documentation for this parameter|-|Always enabled|configuration.dataset.datastore.username|datastore
+|tablename|TODO fill the documentation for this parameter|-|Always enabled|configuration.dataset.tablename|dataset
+|===
+
+//configuration_end
+
+//component_end:CompanyOutput
+

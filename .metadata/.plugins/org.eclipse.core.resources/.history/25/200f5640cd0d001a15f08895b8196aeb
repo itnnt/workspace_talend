@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_3nL7kA3EEeqZ5oHNeCUnZA" name="local_mysql2" id="_uap6kA3EEeqZ5oHNeCUnZA" label="local_mysql2" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://:3306/batchinsertdemo1?noDatetimeStringSync=true" dbVersionString="MYSQL_8" Port="3306" Username="root" Password="6AQaDEkBH3gU8fjZL5ZheQ==" ServerName="" DatasourceName="" FileFieldName="" SID="batchinsertdemo1" SqlSynthax="SQL_92" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+  <taggedValue xmi:id="_3nL7kQ3EEeqZ5oHNeCUnZA" tag="Is Conn Need Reload" value="true"/>
+  <parameters xmi:id="_3nL7kg3EEeqZ5oHNeCUnZA" key="CONN_PARA_KEY_USERNAME" value="root"/>
+</TalendMetadata:DatabaseConnection>

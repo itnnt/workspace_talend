@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_VdG4YENLEd-UK4CtF6UouA" id="_KKCl8OdtEdu08_wAFUaozw" label="tFileInputDelimitedCSV" version="0.1" statusCode="" item="_VdG4YkNLEd-UK4CtF6UouA" displayName="tFileInputDelimitedCSV">
+    <author href="../../../../../talend.project#_jNcsUMpaEem_WIQDJrffyA"/>
+    <additionalProperties xmi:id="_3Vk88MrCEemgd8eMQ_vqgw" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_3Vk88crCEemgd8eMQ_vqgw" key="created_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_3Vk88srCEemgd8eMQ_vqgw" key="created_date" value="2019-08-30T09:09:49.759+0700"/>
+    <additionalProperties xmi:id="_3Vk888rCEemgd8eMQ_vqgw" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_3Vk89MrCEemgd8eMQ_vqgw" key="modified_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_3Vk89crCEemgd8eMQ_vqgw" key="modified_date" value="2019-11-22T21:11:37.923+0700"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_3TJUAMrCEemgd8eMQ_vqgw" path="t01_Compo/File/Input"/>
+  <TalendProperties:ProcessItem xmi:id="_VdG4YkNLEd-UK4CtF6UouA" property="_VdG4YENLEd-UK4CtF6UouA" state="_3TJUAMrCEemgd8eMQ_vqgw">
+    <process href="tFileInputDelimitedCSV_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

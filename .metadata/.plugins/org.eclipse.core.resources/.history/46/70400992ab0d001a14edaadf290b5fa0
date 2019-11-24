@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_8nbZEMpqEem6cZ_N8NL8VQ" id="_8nZj4MpqEem6cZ_N8NL8VQ" label="tFilterRow__Filtering_and_Splitting_Input_Rows" purpose="Filtering and Splitting Input Rows in Talend" description="Filtering and Splitting Input Rows in Talend" version="0.1" statusCode="" item="_8nbZEspqEem6cZ_N8NL8VQ" displayName="tFilterRow__Filtering_and_Splitting_Input_Rows">
+    <author href="../../talend.project#_jNcsUMpaEem_WIQDJrffyA"/>
+    <additionalProperties xmi:id="_8ngRkMpqEem6cZ_N8NL8VQ" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_8ngRkcpqEem6cZ_N8NL8VQ" key="created_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_8ngRkspqEem6cZ_N8NL8VQ" key="created_date" value="2019-08-29T22:40:29.481+0700"/>
+    <additionalProperties xmi:id="_8ngRk8pqEem6cZ_N8NL8VQ" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_8ngRlMpqEem6cZ_N8NL8VQ" key="modified_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_8ngRlcpqEem6cZ_N8NL8VQ" key="modified_date" value="2019-11-23T11:41:24.687+0700"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_8nbZEcpqEem6cZ_N8NL8VQ" path="tutorial/topic_demo" locked="true" lockDate="2019-11-23T11:41:24.687+0700">
+    <locker href="../../../talend.project#_jNcsUMpaEem_WIQDJrffyA"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ProcessItem xmi:id="_8nbZEspqEem6cZ_N8NL8VQ" property="_8nbZEMpqEem6cZ_N8NL8VQ" state="_8nbZEcpqEem6cZ_N8NL8VQ">
+    <process href="tFilterRow__Filtering_and_Splitting_Input_Rows_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

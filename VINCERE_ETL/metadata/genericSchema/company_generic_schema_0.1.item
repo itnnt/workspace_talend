@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_S6WFcMsDEemKY_A7UuiOGQ" comment="connectionComment" label="connectionLabel" dataPackage="_S6WFccsDEemKY_A7UuiOGQ" mappingTypeUsed="true" mappingTypeId="id_MSSQL"/>
+  <TalendMetadata:GenericPackage xmi:id="_S6WFccsDEemKY_A7UuiOGQ" dataManager="_S6WFcMsDEemKY_A7UuiOGQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_S6WFcssDEemKY_A7UuiOGQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S6WFc8sDEemKY_A7UuiOGQ" name="company_externalid" id="5085" label="company_externalid" length="10" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_S6WFdMsDEemKY_A7UuiOGQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S6WFdcsDEemKY_A7UuiOGQ" name="company_name" id="5086" label="company_name" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_S6WFdssDEemKY_A7UuiOGQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S6WFd8sDEemKY_A7UuiOGQ" name="dateAdded" id="5087" label="dateAdded" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;">
+        <initialValue xmi:id="_S6WFeMsDEemKY_A7UuiOGQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

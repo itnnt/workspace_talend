@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_dS858A2cEeqMEMUjfOfg0Q" name="local_postgres" id="_KaPHgA2cEeqMEMUjfOfg0Q" label="local_postgres" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://localhost:5432/postgres?" dbVersionString="V9_X" Port="5432" Username="dbapplication_user" Password="U0JvYdZA6dz07ywjT+Lzzw==" ServerName="localhost" DatasourceName="" FileFieldName="" SID="postgres" SqlSynthax="SQL_92" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+  <taggedValue xmi:id="_dS858Q2cEeqMEMUjfOfg0Q" tag="Is Conn Need Reload" value="true"/>
+  <parameters xmi:id="_dS858g2cEeqMEMUjfOfg0Q" key="CONN_PARA_KEY_USERNAME" value="dbapplication_user"/>
+</TalendMetadata:DatabaseConnection>

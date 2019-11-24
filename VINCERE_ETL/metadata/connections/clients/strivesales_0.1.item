@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_QKlOAMrLEemgd8eMQ_vqgw" name="strivesales" id="_8gVQ8MrKEemgd8eMQ_vqgw" label="strivesales" dataPackage="_3YsgYMrYEemLXb09JBGbkw" ContextMode="true" ContextId="_UisPAMrREemgd8eMQ_vqgw" contextName="Default" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://dmpfra.vinceredev.com:1433/strivesales;" dbVersionString="JTDS" Port="context.strivesales_Port" Username="context.strivesales_Login" Password="context.strivesales_Password" ServerName="context.strivesales_Server" DatasourceName="" FileFieldName="" SID="context.strivesales_Database" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="context.strivesales_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="context.strivesales_Schema">
+    <taggedValue xmi:id="_QKlOAcrLEemgd8eMQ_vqgw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_QLB58MrLEemgd8eMQ_vqgw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_QLGLYMrLEemgd8eMQ_vqgw" tag="Status" value=""/>
+    <taggedValue xmi:id="_QLGLYcrLEemgd8eMQ_vqgw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_QLGLYsrLEemgd8eMQ_vqgw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_QLGLY8rLEemgd8eMQ_vqgw" tag="Description" value=""/>
+    <taggedValue xmi:id="_QLGLZMrLEemgd8eMQ_vqgw" tag="Author" value=""/>
+    <taggedValue xmi:id="_QLGLZcrLEemgd8eMQ_vqgw" tag="otherParameter"/>
+    <taggedValue xmi:id="_QUrlMMrLEemgd8eMQ_vqgw" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_QUrlMcrLEemgd8eMQ_vqgw" tag="DB ProductVersion" value="14.00.1000"/>
+    <taggedValue xmi:id="_QUsMQMrLEemgd8eMQ_vqgw" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_QKlOAsrLEemgd8eMQ_vqgw" key="CONN_PARA_KEY_USERNAME" value="context.strivesales_Login"/>
+    <parameters xmi:id="_PMmUEMrREemgd8eMQ_vqgw" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_3YsgYMrYEemLXb09JBGbkw" name="strivesales" dataManager="_QKlOAMrLEemgd8eMQ_vqgw">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3YtHcMrYEemLXb09JBGbkw" name="bullhorn1"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3YtHccrYEemLXb09JBGbkw" name="db_accessadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3YtHcsrYEemLXb09JBGbkw" name="db_backupoperator"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3YtHc8rYEemLXb09JBGbkw" name="db_datareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3YtHdMrYEemLXb09JBGbkw" name="db_datawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3YtHdcrYEemLXb09JBGbkw" name="db_ddladmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3YtHdsrYEemLXb09JBGbkw" name="db_denydatareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3YtHd8rYEemLXb09JBGbkw" name="db_denydatawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3YtHeMrYEemLXb09JBGbkw" name="db_owner"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3YtHecrYEemLXb09JBGbkw" name="db_securityadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3YtHesrYEemLXb09JBGbkw" name="dbo"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3YtHe8rYEemLXb09JBGbkw" name="eseTmp"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3YtHfMrYEemLXb09JBGbkw" name="guest"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3YtHfcrYEemLXb09JBGbkw" name="INFORMATION_SCHEMA"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3YtHfsrYEemLXb09JBGbkw" name="psTmp"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3YtHf8rYEemLXb09JBGbkw" name="sys"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
